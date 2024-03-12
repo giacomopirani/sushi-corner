@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: black;
+}
+
+/* Nav Bar */
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.first-container-row {
+  padding-top: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.logo-1 {
+  width: 120px;
+}
+
+.principal-button {
+  padding: 14px 20px;
+  width: 300px;
+  font-size: large;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.principal-button:hover {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin-top: 45px;
+  gap: 1rem;
+  align-self: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+li {
+  display: flex;
+  padding: 8px;
+}
+
+.nav-bar {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 10px 10px;
+}
+
+.nav-bar:hover {
+  color: red;
+  transition: all 1s;
+}
+
+/* First Section */
+.title {
+  margin-top: 20px;
+  height: 80px;
+}
+
+h1 {
+  color: red;
+  font-weight: 300;
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+.img-ebi-kenobi {
+  position: relative;
+}
+
+.second-title {
+  position: absolute;
+  top: 5vh;
+  width: 100%;
+  max-height: 50%;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  color: white;
+  text-align: center;
+  box-shadow: inset 0 -6em 3em rgba(0, 0, 0, 0.342);
+  padding: 70px 40px;
+  border-radius: 20px;
+}
+
+.second-button {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.1rem;
+  margin-top: 7vh;
+  padding: 15px 15px;
+}
+
+.button-link {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  letter-spacing: 0;
+  padding: 14px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.button-link:hover {
+  color: white;
+  background-color: red;
+}
+
+/* Second Section */
+.section-2 {
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.box-section-2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.section-title-2 {
+  margin: 30px;
+}
+
+.title-2 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px 2px;
+  border-bottom: 1px solid white;
+}
+
+span {
+  color: red;
+}
+
+.container-reason {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reason {
+  display: flex;
+  max-width: 400px;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: red;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1px 10px;
+}
+
+.title-reason {
+  display: flex;
+  color: white;
+}
+
+h4 {
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  padding-bottom: 40px;
+}
+
+.reason-1 {
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.description-reason {
+  display: flex;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: left;
+  padding-top: 20px;
+}
+
+/* Third Section */
+.section-3 {
+  background-color: white;
+}
+
+.section-title-3 {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.title-3 {
+  font-size: 1.5rem;
+  color: black;
+  padding: 10px 2px;
+  padding-top: 30px;
+  border-bottom: 2px solid black;
+}
+
+.sub-title-3 {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.3rem;
+}
+
+.sub-title-menu {
+  color: red;
+  text-decoration: none;
+}
+.sub-title-menu:hover {
+  color: rgb(116, 0, 0);
+}
+
+.sub-title-menu:active {
+  color: rgb(255, 79, 79);
+}
+
+.scroll-container {
+  margin-left: 8px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  width: 100vw;
+  overflow-x: auto; /* Enable horizontal scrollbar */
+  white-space: nowrap; /* Keep images in a single line */
+}
+
+.scroll-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.scroll-wrapper img {
+  width: 80vw; /* Set the width of each image to the viewport width */
+  height: auto;
+  border: 2px solid rgb(8, 8, 8);
+  border-radius: 10px;
+}
+
+/* Optional: Customize scrollbar styles */
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #ff0000;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: #3d3d3d;
+}
+
+/*  Fourth Section */
+.section-4 {
+  max-width: 100%;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  border-bottom: 5px solid red;
+}
+
+.img-sx {
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 30%;
+  overflow: hidden;
+}
+
+.history-sushi {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  background-color: #000000;
+  color: white;
+  max-width: 30%;
+}
+
+.title-4 {
+  margin: 20px auto;
+  font-size: 1.5rem;
+  padding: 10px 2px;
+  border-bottom: 2px solid white;
+}
+
+.text {
+  font-size: 1.2rem;
+  margin: 15px auto;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.text p:first-child {
+  margin-bottom: 30px;
+}
+
+.last-p {
+  color: rgb(255, 106, 0);
+  margin-top: 30px;
+}
+
+.story-sushi {
+  margin-top: 45px;
+}
+
+.story-sushi a:first-child {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 10px;
+  color: #000000;
+  border-radius: 5px;
+  transition: 1s all ease;
+}
+
+.story-sushi a:first-child:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+.img-dx {
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 30%;
+  overflow: hidden;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.information {
+  color: white;
+  line-height: 3rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-title {
+  color: white;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.local {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 8px;
+  font-size: 20px;
+}
+
+.social-fb,
+.social-ig,
+.social-trip {
+  display: flex;
+  align-items: center;
+
+  font-size: 20px;
+  margin-top: 8px;
+  gap: 10px;
+}
+
+.clock,
+.position,
+.amministration,
+.email {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 10px;
+  gap: 10px;
+  font-size: 20px;
+}
